@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: rgba(0, 128, 0, 0.548);
+  min-height: 100vh;
+}
+.content{
+  text-align: center;
+}
+.content h1{
+  font-size:50px ;
+  padding: 10px;
+}
+.kalam img{
+  width: 600px;
+  height: 500px;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin:0 auto;
+  padding: 50px 20px 50px 20px;
+
+}
+
+.key-points{
+  padding-top: 50px;
+  max-width: 1100px;
+  margin:0 auto;
+  background-color: green;
+
+}
+
+.heading{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+}
+
+.lists{
+  padding-top: 10px;
+  padding-left:30px ;
+  font-size: 17px;
+
+}
+.lists ul li{
+  list-style: none;
+  line-height: 50px;
+}
+.lis{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.lis i{
+  color: black;
+}
+
+footer p{
+  padding: 50px;
+  text-align: end;
+  
+}
+
+@media (max-width: 768px){
+  .content h1{
+    font-size:30px ;
+    padding: 10px;
+  }
+
+  .kalam img{
+    width: 300px;
+    height: 300px;
+  }
+  
+  .heading{
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+  }
+  .lists ul li{
+    line-height: 20px;
+    padding: 10px;
+  }
+  footer p{
+    padding: 50px;
+    text-align:center;
+    font-size: 15px;
+    
+  }
+  
+}
